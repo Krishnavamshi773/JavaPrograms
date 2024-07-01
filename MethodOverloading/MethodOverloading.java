@@ -10,25 +10,30 @@ void sum() {  	//method declaration(method with no returntype,and no arguments)
 }
 	
 void sum(int x,int y) { //method declaration(method with  arguments,using datatypes)
+	//output for method2
 	System.out.println("The sum of two integers are="+(x+y));
 }
 
 void sum(int x,double y) {  //method declaration(method with arguments,using different datatypes)
+	//output for method3
 	System.out.println("The sum of int and double are="+(x+y));
 }
 void sum(int x,int y,int z) {  //method declaration(method with  arguments  using same data types)
+	//output for method4
 	System.out.println("The sum of three integers are="+(x+y+z));
 }
 
 double avg(int a,int b) {  //method declaration(method with returntype,and  arguments)
 
 	double avg=a+b/2;
+	//output for method5
 	System.out.println("Average of  two numbers are="+avg);
 	return avg;
 }
 
 double avg(int a,int b, int c) {  //method declaration(method with  returntype,and arguments  3 datatypes)
 	double avg=a+b+c/3;
+	//output for mrthod5
 	System.out.println("Average of  three numbers are="+avg);
 	return avg;
 }
